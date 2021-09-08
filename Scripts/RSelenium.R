@@ -8,13 +8,13 @@
   driver <- rD[["client"]]
   
   # navigate to an URL
-  driver$navigate("http://books.toscrape.com/")
+    #driver$navigate("http://books.toscrape.com/")
   
   #close the driver
-  driver$close()
+    #driver$close()
   
   #close the server
-  rD[["server"]]$stop()
+    #rD[["server"]]$stop()
 
 
 #Click element

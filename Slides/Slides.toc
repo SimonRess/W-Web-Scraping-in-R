@@ -1,0 +1,9 @@
+\babel@toc {nil}{}\relax 
+\beamer@sectionintoc {1}{Übersicht}{3}{0}{1}
+\beamer@sectionintoc {2}{HTML}{5}{0}{2}
+\beamer@sectionintoc {3}{CSS}{16}{0}{3}
+\beamer@sectionintoc {4}{XPaths}{26}{0}{4}
+\beamer@sectionintoc {5}{Rvest}{38}{0}{5}
+\beamer@sectionintoc {6}{RSelenium}{43}{0}{6}
+\beamer@sectionintoc {7}{Projekte}{52}{0}{7}
+\beamer@sectionintoc {8}{Besprechung \& Ausblick}{54}{0}{8}

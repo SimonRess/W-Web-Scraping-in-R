@@ -1,0 +1,34 @@
+\frametitle{Texteingabe simulieren}
+\textbf{Text eingeben und suchen}
+\begin{knitrout}\tiny
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+  \hlstd{driver}\hlopt{$}\hlkwd{navigate}\hlstd{(}\hlstr{"https://www.google.com/"}\hlstd{)}
+
+\hlcom{#select input box}
+  \hlstd{element} \hlkwb{<-} \hlstd{driver}\hlopt{$}\hlkwd{findElement}\hlstd{(}\hlkwc{using} \hlstd{=} \hlstr{"css"}\hlstd{,}\hlstr{'input[name="q"]'}\hlstd{)}
+\hlcom{#send text to input box. don't forget to use `list()` when sending text}
+  \hlstd{element}\hlopt{$}\hlkwd{sendKeysToElement}\hlstd{(}\hlkwd{list}\hlstd{(}\hlstr{"Web Scraping"}\hlstd{))}
+
+\hlcom{#select search button}
+  \hlstd{element} \hlkwb{<-} \hlstd{driver}\hlopt{$}\hlkwd{findElement}\hlstd{(}\hlkwc{using} \hlstd{=} \hlstr{"css"}\hlstd{,}\hlstr{'input[name="btnK"]'}\hlstd{)}
+  \hlstd{element}\hlopt{$}\hlkwd{clickElement}\hlstd{()}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\textbf{Input Box säubern}
+\begin{knitrout}\tiny
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+  \hlstd{driver}\hlopt{$}\hlkwd{navigate}\hlstd{(}\hlstr{"https://www.google.com/"}\hlstd{)}
+
+\hlcom{#selcet input box}
+  \hlstd{element} \hlkwb{<-} \hlstd{driver}\hlopt{$}\hlkwd{findElement}\hlstd{(}\hlkwc{using} \hlstd{=} \hlstr{"css"}\hlstd{,}\hlstr{'input[name="q"]'}\hlstd{)}
+  \hlstd{element}\hlopt{$}\hlkwd{sendKeysToElement}\hlstd{(}\hlkwd{list}\hlstd{(}\hlstr{"Web Scraping"}\hlstd{))}
+
+\hlcom{#clear input box}
+  \hlstd{element}\hlopt{$}\hlkwd{clearElement}\hlstd{()}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
