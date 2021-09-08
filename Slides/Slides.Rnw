@@ -571,12 +571,14 @@ Im folgenden Beispiel: <title>, <author>, <year> und <price>
 Alle parent-Elemente einer Node und deren parent. \\
 Im folgenden Beispiel sind <book> und <bookstore> die ancestors von <title>
 <<XMLAncestors, echo=TRUE, eval=F, size="tiny", results='asis'>>=
-<book>
-  <title>Harry Potter</title>
-  <author>J K. Rowling</author>
-  <year>2005</year>
-  <price>29.99</price>
-</book>
+<bookstore>
+  <book>
+    <title>Harry Potter</title>
+    <author>J K. Rowling</author>
+    <year>2005</year>
+    <price>29.99</price>
+  </book>
+</bookstore>
 @
 \end{frame}
 
@@ -585,12 +587,14 @@ Im folgenden Beispiel sind <book> und <bookstore> die ancestors von <title>
 Alle child-Elemente einer Node und deren child \\
 Im folgenden Beispiel sind <book>, <title>, <author>, <year> und price die descendants von <bookstore>
 <<XMLDescendants, echo=TRUE, eval=F, size="tiny", results='asis'>>=
-<book>
-  <title>Harry Potter</title>
-  <author>J K. Rowling</author>
-  <year>2005</year>
-  <price>29.99</price>
-</book>
+<bookstore>
+  <book>
+    <title>Harry Potter</title>
+    <author>J K. Rowling</author>
+    <year>2005</year>
+    <price>29.99</price>
+  </book>
+</bookstore>
 @
 \end{frame}
 
@@ -923,6 +927,7 @@ Bilden Sie Gruppen in der Größe von 2 bis 4 Personen, wählen Sie eine interes
     \item \href{https://github.com/yusuzech/r-web-scraping-cheat-sheet}{Web Scraping Reference: Cheat Sheet for Web Scraping using R}
     \item \href{https://www.w3schools.com/xml/xpath_intro.asp}{XPath Tutorial}
     \item \href{https://www.w3schools.com/cssref/css_selectors.asp}{CSS Selector Reference}
+    \item \href{https://www.w3schools.com/cssref/trysel.asp}{CSS Selector Showcase}
   \end{itemize}
 \end{frame}  
   
