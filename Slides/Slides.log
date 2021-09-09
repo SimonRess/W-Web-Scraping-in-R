@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.26)  8 SEP 2021 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.26)  9 SEP 2021 18:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1141,10 +1141,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [9
 
 ]
-<figure/htmlbasicstructure.png, id=392, 627.84563pt x 415.5525pt>
+<figure/htmlbasicstructure.png, id=394, 627.84563pt x 415.5525pt>
 File: figure/htmlbasicstructure.png Graphic file (type png)
 <use figure/htmlbasicstructure.png>
-Package pdftex.def Info: figure/htmlbasicstructure.png  used on input line 273.
+Package pdftex.def Info: figure/htmlbasicstructure.png  used on input line 274.
 
 (pdftex.def)             Requested size: 250.9517pt x 166.09758pt.
  [10
@@ -1152,16 +1152,16 @@ Package pdftex.def Info: figure/htmlbasicstructure.png  used on input line 273.
  <./figure/htmlbasicstructure.png>] [11
 
 ]
-<figure/BasicHtml(Schema).png, id=462, 623.32875pt x 411.78844pt>
+<figure/BasicHtml(Schema).png, id=464, 623.32875pt x 411.78844pt>
 File: figure/BasicHtml(Schema).png Graphic file (type png)
 <use figure/BasicHtml(Schema).png>
-Package pdftex.def Info: figure/BasicHtml(Schema).png  used on input line 310.
+Package pdftex.def Info: figure/BasicHtml(Schema).png  used on input line 312.
 (pdftex.def)             Requested size: 250.9517pt x 165.7869pt.
 
 ! Undefined control sequence.
-\beamer@doifinframe ...ml(Schema).png} \floatfoot 
-                                                  {\tiny Quelle: Eigene Dars...
-l.310 \end{frame}
+<recently read> \floatfoot 
+                           
+l.312 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1175,27 +1175,22 @@ and I'll forget about whatever was undefined.
 \openout4 = `Slides.vrb'.
 
  (./Slides.vrb
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <6> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 13.
-
-Overfull \hbox (9.91035pt too wide) in paragraph at lines 18--18
-[]         \OT1/cmtt/m/n/10 https://www.w3schools.com/tags/ref_byfunc.asp"[] 
- []
-
 ) [13
 
 ]
-<figure/BasicHtml(Browser).png, id=534, 629.35126pt x 193.47281pt>
+<figure/BasicHtml(Browser).png, id=536, 629.35126pt x 193.47281pt>
 File: figure/BasicHtml(Browser).png Graphic file (type png)
 <use figure/BasicHtml(Browser).png>
-Package pdftex.def Info: figure/BasicHtml(Browser).png  used on input line 348.
+Package pdftex.def Info: figure/BasicHtml(Browser).png  used on input line 350.
 
 (pdftex.def)             Requested size: 278.83713pt x 85.71872pt.
 
 ! Undefined control sequence.
 \beamer@doifinframe ...l(Browser).png} \floatfoot 
                                                   {\tiny Quelle: Darstellung...
-l.348 \end{frame}
+l.350 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1206,28 +1201,17 @@ and I'll forget about whatever was undefined.
 [14
 
  <./figure/BasicHtml(Browser).png>]
-<figure/HTMLtree.png, id=568, 410.2828pt x 322.20375pt>
+<figure/HTMLtree.png, id=571, 410.2828pt x 322.20375pt>
 File: figure/HTMLtree.png Graphic file (type png)
 <use figure/HTMLtree.png>
-Package pdftex.def Info: figure/HTMLtree.png  used on input line 358.
-(pdftex.def)             Requested size: 223.07054pt x 175.18211pt.
-
-! Undefined control sequence.
-\beamer@doifinframe ...e/HTMLtree.png} \floatfoot 
-                                                  {\tiny Quelle: } \end {fig...
-l.358 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[15
+Package pdftex.def Info: figure/HTMLtree.png  used on input line 359.
+(pdftex.def)             Requested size: 195.18513pt x 153.27943pt.
+ [15
 
  <./figure/HTMLtree.png>] [16
 
-] [17
+]
+[17
 
 ]
 \openout4 = `Slides.vrb'.
@@ -1235,17 +1219,11 @@ and I'll forget about whatever was undefined.
  (./Slides.vrb
 LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
 5.
-
-(c:/Program Files/R/R-3.6.3/share/texmf/tex/latex/omscmtt.fd
+ (c:/Program Files/R/R-3.6.3/share/texmf/tex/latex/omscmtt.fd
 File: omscmtt.fd 
 )
 LaTeX Font Info:    Font shape `OMS/cmtt/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
-
-Overfull \hbox (8.59726pt too wide) in paragraph at lines 11--11
-[]\OT1/cmtt/m/n/10.95 /* In eckigen Klammern stehen optionale Angaben */[] 
- []
-
 ) [18
 
 ]
@@ -1257,14 +1235,16 @@ Overfull \hbox (8.59726pt too wide) in paragraph at lines 11--11
 \openout4 = `Slides.vrb'.
 
  (./Slides.vrb
-<figure/CSSinHTML.png, id=745, 325.96782pt x 62.48344pt>
+<figure/CSSinHTML.png, id=749, 325.96782pt x 62.48344pt>
 File: figure/CSSinHTML.png Graphic file (type png)
 <use figure/CSSinHTML.png>
 Package pdftex.def Info: figure/CSSinHTML.png  used on input line 14.
 (pdftex.def)             Requested size: 195.18513pt x 37.41502pt.
 
 ! Undefined control sequence.
-l.15   	\floatfoot
+<recently read> \floatfoot 
+                           
+l.16   	\floatfoot
                   {\tiny Quelle: Eigene Darstellung}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1278,14 +1258,16 @@ and I'll forget about whatever was undefined.
 \openout4 = `Slides.vrb'.
 
  (./Slides.vrb
-<figure/CSSStructure.png, id=780, 383.18156pt x 219.82124pt>
+<figure/CSSStructure.png, id=784, 383.18156pt x 219.82124pt>
 File: figure/CSSStructure.png Graphic file (type png)
 <use figure/CSSStructure.png>
 Package pdftex.def Info: figure/CSSStructure.png  used on input line 15.
-(pdftex.def)             Requested size: 195.18513pt x 111.97318pt.
+(pdftex.def)             Requested size: 167.30397pt x 95.977pt.
 
 ! Undefined control sequence.
-l.16   	\floatfoot
+<recently read> \floatfoot 
+                           
+l.17   	\floatfoot
                   {\tiny Quelle: Eigene Darstellung}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1299,16 +1281,16 @@ and I'll forget about whatever was undefined.
 
 ]
 LaTeX Font Info:    Trying to load font information for OML+cmss on input line 
-476.
-LaTeX Font Info:    No file OMLcmss.fd. on input line 476.
+479.
+LaTeX Font Info:    No file OMLcmss.fd. on input line 479.
 
 
 LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textless' on input line 476.
+(Font)              for symbol `textless' on input line 479.
 
 
-Overfull \hbox (22.0844pt too wide) in paragraph at lines 476--476
+Overfull \hbox (2.1947pt too wide) in paragraph at lines 479--479
  [] 
  []
 
@@ -1316,19 +1298,19 @@ Overfull \hbox (22.0844pt too wide) in paragraph at lines 476--476
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-494.
+497.
 
 (c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (26.96887pt too wide) in paragraph at lines 494--494
+Overfull \hbox (6.75954pt too wide) in paragraph at lines 497--497
  [] 
  []
 
 [24
 
 ]
-Overfull \hbox (38.51479pt too wide) in paragraph at lines 516--516
+Overfull \hbox (38.51479pt too wide) in paragraph at lines 520--520
  [] 
  []
 
@@ -1337,16 +1319,16 @@ Overfull \hbox (38.51479pt too wide) in paragraph at lines 516--516
 ] [26
 
 ]
-<figure/XML-Structure.png, id=995, 454.69875pt x 278.54062pt>
+<figure/XML-Structure.png, id=997, 454.69875pt x 278.54062pt>
 File: figure/XML-Structure.png Graphic file (type png)
 <use figure/XML-Structure.png>
-Package pdftex.def Info: figure/XML-Structure.png  used on input line 534.
+Package pdftex.def Info: figure/XML-Structure.png  used on input line 538.
 (pdftex.def)             Requested size: 167.30397pt x 102.48888pt.
 
 ! Undefined control sequence.
 \beamer@doifinframe ...-Structure.png} \floatfoot 
                                                   {\tiny Quelle: Eigene Dars...
-l.534 \end{frame}
+l.538 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1391,16 +1373,7 @@ and I'll forget about whatever was undefined.
 
 ] [35
 
-]
-Overfull \hbox (14.16321pt too wide) in paragraph at lines 689--689
- [] 
- []
-
-
-Overfull \vbox (17.19353pt too high) detected at line 689
- []
-
-[36
+] [36
 
 ]
 \openout4 = `Slides.vrb'.
@@ -1422,10 +1395,7 @@ Overfull \hbox (43.08939pt too wide) in paragraph at lines 4--4
 ]
 \openout4 = `Slides.vrb'.
 
- (./Slides.vrb
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <6> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 7.
-) [41
+ (./Slides.vrb) [41
 
 ]
 \openout4 = `Slides.vrb'.
@@ -1504,15 +1474,15 @@ Package rerunfilecheck Info: File `Slides.out' has not changed.
 (rerunfilecheck)             Checksum: 60A99CCDD28C01D9469BFB96D00ABE61;686.
  ) 
 Here is how much of TeX's memory you used:
- 24729 strings out of 480449
- 450974 string characters out of 5895132
+ 24727 strings out of 480449
+ 450942 string characters out of 5895132
  726677 words of memory out of 5000000
- 41729 multiletter control sequences out of 15000+600000
- 428856 words of font info for 115 fonts, out of 8000000 for 9000
+ 41727 multiletter control sequences out of 15000+600000
+ 428983 words of font info for 115 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,40n,108p,494b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
  <c:/Users/simon/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/e
-c/tcss1000.600pk>{c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/d
+c/tcss0900.600pk>{c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/d
 vips/mnsymbol/MnSymbolC.enc}{c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/
 fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{c:/Users/simon/AppData/Roaming/TinyTeX/
 texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{c:/Users/simon/AppData/Roami
@@ -1522,28 +1492,27 @@ pData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb><c:
 ymbol6.pfb><c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publi
 c/mnsymbol/MnSymbol8.pfb><c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmitt10.pfb><c:/Users/simon/AppData/Roaming/TinyTeX
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/simon/AppData/R
-oaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Users/si
-mon/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Users/simon/AppData/Ro
+aming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/Users/sim
+on/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 ><c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmss10.pfb><c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmss12.pfb><c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/Users/simon/AppData/Roaming/TinyT
-eX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/Users/simon/AppData/
-Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/User
-s/simon/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi
-10.pfb><c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmssi12.pfb><c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmssi8.pfb><c:/Users/simon/AppData/Roaming/TinyTeX/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb><c:/Users/simon/AppData/Roami
-ng/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/simon
-/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c
+/cm/cmss12.pfb><c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmss8.pfb><c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/Users/simon/AppData/Roaming/TinyTe
+X/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/Users/simon/AppDat
+a/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/Use
+rs/simon/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
+i12.pfb><c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmssi8.pfb><c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmssi9.pfb><c:/Users/simon/AppData/Roaming/TinyTeX/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/simon/AppData/Roami
+ng/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/Users/simon/
+AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c
 :/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmtt10.pfb><c:/Users/simon/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmtt8.pfb>
-Output written on Slides.pdf (56 pages, 568799 bytes).
+/cmtt8.pfb>
+Output written on Slides.pdf (56 pages, 564064 bytes).
 PDF statistics:
- 2169 PDF objects out of 2487 (max. 8388607)
+ 2168 PDF objects out of 2487 (max. 8388607)
  2030 compressed objects within 21 object streams
  121 named destinations out of 1000 (max. 500000)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)

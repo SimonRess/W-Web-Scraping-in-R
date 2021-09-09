@@ -1,6 +1,6 @@
 % Notwendige Einstellung
   % Tools->Global Options-> Sweave: Weave Rnw files using: knitr
-  %                                 Typeset LaTeX into PDF using: XeLaTeX pdfLaTeX
+  %                                 Typeset LaTeX into PDF using: XeLaTeX (pdfLaTeX)
   
 % Manuals: 
   % beamer-Dokumente: http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf
@@ -193,14 +193,14 @@
 \small
 
 \begin{itemize}
-\item \textbf{Tags:} Start- ({\color{gray}{\textbf{<Tag-Name>}}}) und End-Punkte ({\color{gray}{\textbf{</Tag-Name>}}}) von Elementen. 
+\item \textbf{Tags:} Start- ({\color{gray}{\textbf{$<$Tag-Name$>$}}}) und End-Punkte ({\color{gray}{\textbf{$<$/Tag-Name$>$}}}) von Elementen. 
 \item \textbf{Element:} Zusammenspiel aus darzustellendem Inhalt und Darstellungsvorgabe für Browser
 \end{itemize}
 \[ 
 \overbrace{
   \begingroup
     \color{red}
-    \underbrace{$<h1>$}_\text{(Start-)Tag} 
+    \underbrace{<h1>}_\text{(Start-)Tag} 
   \endgroup
   \begingroup
     \color{blue}
@@ -208,7 +208,7 @@
   \endgroup
   \begingroup
     \color{red}
-    \underbrace{$</h1>$}_\text{(End-)Tag}
+    \underbrace{</h1>}_\text{(End-)Tag}
   \endgroup
 }^\text{Element}
 \]
@@ -245,7 +245,7 @@
   \endgroup
   \begingroup
     \color{red}
-    \underbrace{$</a>$}_\text{(End-)Tag}
+    \underbrace{</a>}_\text{(End-)Tag}
   \endgroup
 }_\text{Element}
 \]
@@ -257,9 +257,9 @@
 \begin{frame}{HTML: Grundstruktur}
 \textbf{Ein HTML-Dokument besteht aus drei Bereichen:}
 \begin{itemize}
-\item \textbf{Dokumenttypdeklaration ({\color{gray}{\textbf{<!DOCTYPE html>}}}):} Beginn der Datei, die die verwendete Dokumenttypdefinition (DTD) angibt, z. B. HTML oder CSS
-\item \textbf{HTML-Kopf ({\color{gray}{\textbf{<head>}}}):} Enthält hauptsächlich technische oder dokumentarische Informationen, die üblicherweise nicht im Anzeigebereich des Browsers dargestellt werden
-\item \textbf{HTML-Körper ({\color{gray}{\textbf{<body>}}}):} Enthält alle Informationen die gewöhnlich im Anzeigebereich des Browsers zu sehen sind
+\item \textbf{Dokumenttypdeklaration ({\color{gray}{\textbf{$<$!DOCTYPE html$>$}}}):} Beginn der Datei, die die verwendete Dokumenttypdefinition (DTD) angibt, z. B. HTML oder CSS
+\item \textbf{HTML-Kopf ({\color{gray}{\textbf{$<$head$>$}}}):} Enthält hauptsächlich technische oder dokumentarische Informationen, die üblicherweise nicht im Anzeigebereich des Browsers dargestellt werden
+\item \textbf{HTML-Körper ({\color{gray}{\textbf{$<$body$>$}}}):} Enthält alle Informationen die gewöhnlich im Anzeigebereich des Browsers zu sehen sind
 \end{itemize}
 \end{frame}
 
@@ -268,6 +268,7 @@
   \begin{figure}
   	\centering
   	\includegraphics[width=0.9\textwidth]{figure/htmlbasicstructure.png}
+  	\\
   	{\footnotesize \tiny Quelle: Eigene Darstellung \par}
   \end{figure}
 \end{frame}
@@ -282,17 +283,17 @@
 \begin{tabular}{ll}
 \hline
 \textbf{Element-Name}                                                              & \textbf{Beschreibung}               \\ \hline
-{\color{gray}{\textbf{<title>}}}                                                     & Titel des Dokuments                 \\ \hline
-{\color{gray}{\textbf{<h1>}}} bis {\color{gray}{\textbf{<h6>}}}                          & Überschriften in absteigender Ebene \\ \hline
-{\color{gray}{\textbf{<p>}}}                                                         & Paragraph                       \\ \hline
-{\color{gray}{\textbf{<b>}}}, {\color{gray}{\textbf{<i>}}}, {\color{gray}{\textbf{<u>}}} & Text fett, kursiv, unterstrichten   \\ \hline
-{\color{gray}{\textbf{<a>}}}                                                         & Hyperlink                           \\
-{\color{gray}{\textbf{<ul>}}} / {\color{gray}{\textbf{<ol>}}}                           & Ungeordnete / geordnete Liste        \\
-{\color{gray}{\textbf{<li>}}}                                                       & Item einer Liste                 \\
-{\color{gray}{\textbf{<picture>}}}                                                   & Bild einfügen                       \\
-{\color{gray}{\textbf{<video>}}}                                                     & Video einfügen (Medien Element)     \\
-{\color{gray}{\textbf{<audio>}}}                                                    & Sound einfügen (Medien Element)     \\
-{\color{gray}{\textbf{<source>}}}                                                    & Datei für Medien Element           
+{\color{gray}{\textbf{$<$title$>$}}}                                                     & Titel des Dokuments                 \\ \hline
+{\color{gray}{\textbf{$<$h1$>$}}} bis {\color{gray}{\textbf{$<$h6$>$}}}                          & Überschriften in absteigender Ebene \\ \hline
+{\color{gray}{\textbf{$<$p$>$}}}                                                         & Paragraph                       \\ \hline
+{\color{gray}{\textbf{$<$b$>$}}}, {\color{gray}{\textbf{$<$i$>$}}}, {\color{gray}{\textbf{$<$u$>$}}} & Text fett, kursiv, unterstrichten   \\ \hline
+{\color{gray}{\textbf{$<$a$>$}}}                                                         & Hyperlink                           \\ \hline
+{\color{gray}{\textbf{$<$ul$>$}}} / {\color{gray}{\textbf{$<$ol$>$}}}                           & Ungeordnete / geordnete Liste        \\ \hline
+{\color{gray}{\textbf{$<$li$>$}}}                                                       & Item einer Liste                 \\ \hline
+{\color{gray}{\textbf{$<$picture$>$}}}                                                   & Bild einfügen                       \\ \hline
+{\color{gray}{\textbf{$<$video$>$}}}                                                     & Video einfügen (Medien Element)     \\ \hline
+{\color{gray}{\textbf{$<$audio$>$}}}                                                    & Sound einfügen (Medien Element)     \\ \hline
+{\color{gray}{\textbf{$<$source$>$}}}                                                    & Datei für Medien Element           
 \end{tabular}
 \end{table}
 
@@ -305,13 +306,14 @@
   \begin{figure}
   	\centering
   	\includegraphics[width=0.9\textwidth]{figure/BasicHtml(Schema).png}
+  	\\
   	\floatfoot{\tiny Quelle: Eigene Darstellung}
   \end{figure}
 \end{frame}
 
 
 \begin{frame}[fragile]{HTML: Basics.html (Code)}
-\begin{knitrout}\small
+\begin{knitrout}\tiny
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 \begin{alltt}
 <!DOCTYPE html>
@@ -344,7 +346,7 @@
   	\includegraphics[width=1\textwidth]{figure/BasicHtml(Browser).png}
   	\floatfoot{\tiny Quelle: Darstellung in Chrome Version 88.0.4324.182 (Offizieller Build) (64-Bit)}
   \end{figure}
-  Link: resssis4.io.noc.ruhr-uni-bochum.de/homepage
+  Link: \href{www.resssis4.io.noc.ruhr-uni-bochum.de/homepage}{www.resssis4.io.noc.ruhr-uni-bochum.de/homepage} 
 \end{frame}
 
 
@@ -352,8 +354,7 @@
 Die Verschachtelung der Inhalte eines HTML-Dokuments kann am besten mittels eines Baumdiagramms dargestellt werden. 
 \begin{figure}
   	\centering
-  	\includegraphics[width=0.8\textwidth]{figure/HTMLtree.png}
-  	\floatfoot{\tiny Quelle: }
+  	\includegraphics[width=0.7\textwidth]{figure/HTMLtree.png}
   \end{figure}
 \end{frame}
 
@@ -383,7 +384,7 @@ Selektor1 [, Selektor2 [, …] ] \{
     Eigenschaft-n: Wert-n[;]
 \}
 /* Kommentar */
-/* In eckigen Klammern stehen optionale Angaben */
+/* Optionale Angaben in eckigen Klammern */
 \end{alltt}
 \end{kframe}
 \end{frame}
@@ -427,6 +428,7 @@ p.info span::after \{
   \begin{figure}
   	\centering
   	\includegraphics[width=0.7\textwidth]{figure/CSSinHTML.png}
+  	\\
   	\floatfoot{\tiny Quelle: Eigene Darstellung}
   \end{figure}
 \end{frame}
@@ -446,7 +448,8 @@ p.info span::after \{
 \end{kframe}
   \begin{figure}
   	\centering
-  	\includegraphics[width=0.7\textwidth]{figure/CSSStructure.png}
+  	\includegraphics[width=0.6\textwidth]{figure/CSSStructure.png}
+  	\\
   	\floatfoot{\tiny Quelle: Eigene Darstellung}
   \end{figure}
 \end{frame}
@@ -461,15 +464,15 @@ Hier ein erster Einblick: \href{https://www.w3schools.com/cssref/trysel.asp}{CSS
 
 \begin{frame}{CSS-Selector: Übersicht I}
 \begin{table}[]
-\small
+\footnotesize
 \begin{tabular}{lll}
-\textbf{Selector}                             & \textbf{Beispiel} & \textbf{Beschreibung}                                                                                                                 \\
-\textit{.class}                               & .intro            & Alle Elemente mit class="intro"                                                                                                       \\
-\textit{.class1.class2}                       & .name1.name2      & \begin{tabular}[c]{@{}l@{}}Alle Elemente mit "name1" \& \\ "name2" in class attribute\end{tabular}                                    \\
-\textit{.class1 .class2}                      & .name1 .name2     & \begin{tabular}[c]{@{}l@{}}Alle Elemente mit class="name2"\\ welche Elementen mit \\ class="name1" untergeordnet \\ sind\end{tabular} \\
-\textit{\#id}                                 & \#firstname       & Alle Elemente mit id="firstname"                                                                                                      \\
-\textit{*}                                    & *                 & Alle Elemente                                                                                                                         \\
-\textit{element}                              & p                 & Alle \textless{}p\textgreater Elemente                                                                                                \\
+\textbf{Selector}                             & \textbf{Beispiel} & \textbf{Beschreibung}                                                                                                                 \\ \hline
+\textit{.class}                               & .intro            & Alle Elemente mit class="intro"                                                                                                       \\ \hline
+\textit{.class1.class2}                       & .name1.name2      & \begin{tabular}[c]{@{}l@{}}Alle Elemente mit "name1" \& \\ "name2" in class attribute\end{tabular}                                    \\ \hline
+\textit{.class1 .class2}                      & .name1 .name2     & \begin{tabular}[c]{@{}l@{}}Alle Elemente mit class="name2"\\ welche Elementen mit \\ class="name1" untergeordnet \\ sind\end{tabular} \\ \hline
+\textit{\#id}                                 & \#firstname       & Alle Elemente mit id="firstname"                                                                                                      \\ \hline
+\textit{*}                                    & *                 & Alle Elemente                                                                                                                         \\ \hline
+\textit{element}                              & p                 & Alle \textless{}p\textgreater Elemente                                                                                                \\ \hline
 \textit{element.class} & p.intro           & \begin{tabular}[c]{@{}l@{}}Alle \textless{}p\textgreater Elemente mit \\ class="intro"\end{tabular}                                  
 \end{tabular}
 \end{table}
@@ -477,9 +480,9 @@ Hier ein erster Einblick: \href{https://www.w3schools.com/cssref/trysel.asp}{CSS
 
 
 
-\begin{frame}{CSS-Selector: Übersicht I}
+\begin{frame}{CSS-Selector: Übersicht II}
 \begin{table}[]
-\small
+\footnotesize
 \begin{tabular}{lll}
 \textbf{Selector}                       & \textbf{Beispiel}                     & \textbf{Beschreibung}                                                                                                                   \\ \hline
 element\textgreater{}element            & div \textgreater p                    & \begin{tabular}[c]{@{}l@{}}Alle Elemente \textless{}p\textgreater deren \\ parent \textless{}div\textgreater Elemente sind\end{tabular} \\ \hline
@@ -498,9 +501,10 @@ element\textgreater{}element            & div  p                                
 \begin{frame}{CSS-Selector \& XPaths}
 \footnotesize
 \begin{table}[]
+\footnotesize
 \begin{tabular}{lll}
 \hline
-Ziel                              & CSS-Selektor                 & XPath                           \\ \hline
+\textbf{Ziel}                              & \textbf{CSS-Selektor}                 & \textbf{XPath}                           \\ \hline
 All Elements                      & *                            & //*                             \\ \hline
 All Elements: p                   & p                            & //p                             \\ \hline
 All Child Elements of p           & p \textgreater *             & //p/*                           \\ \hline
@@ -560,7 +564,7 @@ XML-Dokumente werden als Bäume von nodes behandelt. Das oberste Element des Bau
 \end{kframe}
   \begin{itemize}
     \item Root-Element node: <bookstore>
-    \item Element node: <author>J K. Rowling</author>
+    \item Element node: $<$author$>$ J K. Rowling $<$/author$>$
     \item Attribute node: lang="en" 
   \end{itemize}
 \end{frame}
@@ -568,7 +572,7 @@ XML-Dokumente werden als Bäume von nodes behandelt. Das oberste Element des Bau
 
 \begin{frame}[fragile]{Beziehungen zwischen Nodes: parent}
 Jedes Element und Attribut hat ein übergeordnetes Element (parent).\\
-Im folgenden Beispiel ist das <book> element das übergeordnete Element von <title>, <author>, <year> und <price>:
+Im folgenden Beispiel ist das $<$book$>$ element das übergeordnete Element von $<$title$>$, $<$author$>$, $<$year$>$ und $<$price$>$:
 \begin{kframe}
 \begin{alltt}
 <book>
@@ -584,7 +588,7 @@ Im folgenden Beispiel ist das <book> element das übergeordnete Element von <tit
 
 \begin{frame}[fragile]{Beziehungen zwischen Nodes: children}
 Nodes-Elemente können null, ein oder mehrere children (untergeordnete Knoten) haben. \\
-Im folgenden Beispiel sind <title>, <author>, <year> und <price> alle untergeordnete Elemente des <book>-Elements:
+Im folgenden Beispiel sind $<$title$>$, $<$author$>$, $<$year$>$ und $<$price$>$ alle untergeordnete Elemente des $<$book$>$-Elements:
 \begin{kframe}
 \begin{alltt}
 <book>
@@ -600,7 +604,7 @@ Im folgenden Beispiel sind <title>, <author>, <year> und <price> alle untergeord
 
 \begin{frame}[fragile]{Beziehungen zwischen Nodes: siblings}
 Nur Nodes mit dem selben parent (übergeordneten Element). \\
-Im folgenden Beispiel: <title>, <author>, <year> und <price>
+Im folgenden Beispiel: $<$title$>$, $<$author$>$, $<$year$>$ und $<$price$>$
 \begin{kframe}
 \begin{alltt}
 <book>
@@ -616,7 +620,7 @@ Im folgenden Beispiel: <title>, <author>, <year> und <price>
 
 \begin{frame}[fragile]{Beziehungen zwischen Nodes: ancestors}
 Alle parent-Elemente einer Node und deren parent. \\
-Im folgenden Beispiel sind <book> und <bookstore> die ancestors von <title>
+Im folgenden Beispiel sind $<$book$>$ und $<$bookstore$>$ die ancestors von $<$title$>$
 \begin{kframe}
 \begin{alltt}
 <bookstore>
@@ -634,7 +638,7 @@ Im folgenden Beispiel sind <book> und <bookstore> die ancestors von <title>
 
 \begin{frame}[fragile]{Beziehungen zwischen Nodes: descendants}
 Alle child-Elemente einer Node und deren child \\
-Im folgenden Beispiel sind <book>, <title>, <author>, <year> und price die descendants von <bookstore>
+Im folgenden Beispiel sind $<$book$>$, $<$title$>$, $<$author$>$, $<$year$>$ und $<$price$>$ die descendants von $<$bookstore$>$
 \begin{kframe}
 \begin{alltt}
 <bookstore>
@@ -674,7 +678,7 @@ Prädikate werden verwendet, um eine bestimmte Node oder eine Node mit einen bes
 Prädikate werden immer in eckige Klammern gesetzt.
 
 \begin{table}[]
-\small
+\footnotesize
 \begin{tabular}{lll}
 \textbf{Pfadausdruck}                  & \textbf{Beschreibung}                                                                                                                        &  \\ \cline{1-2}
 nodename{[}1{]}                        & \begin{tabular}[c]{@{}l@{}}Wählt das erste Element mit \\ entsprechendem Namen aus\end{tabular}                                              &  \\ \cline{1-2}
@@ -722,7 +726,7 @@ nodename{[}price\textgreater{}35.00{]} & \begin{tabular}[c]{@{}l@{}}Wählt alle 
 
 
 \begin{frame}{Was ist Rvest?}
-Das Packet \textit{rvest} macht es einfach Daten von Webseiten (HTML \& XML) zu extrahiert (web scraping) und zu manipulieren. Es wurde für die Arbeit mit dem Packet \textit{magrittr} (Pipe-Operator: \%>\%) entwickelt, um die Syntax für gängiger Web-Scraping-Aufgaben zu vereinfachen
+Das Packet \textit{rvest} macht es einfach Daten von Webseiten (HTML \& XML) zu extrahiert (web scraping) und zu manipulieren. Es wurde für die Arbeit mit dem Packet \textit{magrittr} (Pipe-Operator: \%$>$\%) entwickelt, um die Syntax für gängiger Web-Scraping-Aufgaben zu vereinfachen
 \end{frame}
 
 
