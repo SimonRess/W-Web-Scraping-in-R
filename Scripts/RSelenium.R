@@ -1,7 +1,20 @@
 #Start
+
+  # !!! Install JAVA on PC before continuing
+
   #Install and load the package/library
   if(!require("RSelenium")) install.packages("RSelenium")
   library(RSelenium)
+  
+  if(!require("dplyr")) install.packages("dplyr")
+  library(dplyr)
+  
+  if(!require("rvest")) install.packages("rvest")
+  library(rvest)
+  
+  if(!require("stringr")) install.packages("stringr")
+  library(stringr)
+  
   
   # start the server and browser(you can use other browsers here)
   rD <- rsDriver(port = 4570L,browser=c("firefox")) # rD <- rsDriver(port = 4568L, browser = "firefox")
@@ -82,7 +95,6 @@
   element$sendKeysToElement(list(key = "page_down"))
   
   
-  
 #Scroll multiple times
   element <- driver$findElement("css", "body")
   
@@ -90,7 +102,7 @@
     for(i in 1:2){
       element$sendKeysToElement(list("key"="page_down"))
       # please make sure to sleep a couple of seconds to since it takes time to load contents
-      Sys.sleep(2) 
+      Sys.sleep(rnorm(1, 2, 1)) 
     }
   
   
@@ -118,7 +130,7 @@
     element$sendKeysToElement(list("Web Scraping"))
   
   #select search button
-    element <- driver$findElement(using = "css",'body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(2) > div.A8SBwf > div.FPdoLc.tfB0Bf > center > input.gNO89b')
+    element <- driver$findElement(using = "css",'body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf.emcav > div.UUbT9 > div.aajZCb > div.lJ9FBc > center > input.gNO89b')
     element$clickElement()
     
   
