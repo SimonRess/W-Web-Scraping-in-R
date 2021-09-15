@@ -1,0 +1,8 @@
+R-Selenium Reference manual (offical):
+https://cran.r-project.org/web/packages/RSelenium/RSelenium.pdf
+
+XPath Tutorial:
+https://www.w3schools.com/xml/xpath_intro.asp
+
+CSS Selector Reference:
+https://www.w3schools.com/cssref/css_selectors.asp
