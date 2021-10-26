@@ -1,0 +1,5 @@
+Selenium
+Selenium Python bindings provide a simple API to write functional/acceptance tests using Selenium WebDriver. Through Selenium Python API you can access all functionalities of Selenium WebDriver in an intuitive way.
+
+Selenium is used to scrape websites which load content dynamically like Facebook, Twitter, etc. or if we have to perform a click or scroll page action to login or signup to get to the page that has to be scrapped.
+Selenium can be used with Scrapy and Beautiful Soup after the site has loaded the dynamically generated content we can get access to the HTML of that site through selenium and pass it to Scrapy or beautiful soup and perform the same operations.
